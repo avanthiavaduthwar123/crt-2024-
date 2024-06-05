@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a;
+    scanf("%d",&a);
+    if(a%2==0) 
+    {
+     printf("Even no");
+     
+    }
+    else
+    {
+        printf("odd no");
+    }
+
+    return 0;
+}
+24
+Even no
+
+=== Code Execution Successful ===
