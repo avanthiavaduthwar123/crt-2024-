@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a;
+    scanf("%d",&a);
+    if(a>0)
+    {
+        printf("positive no");
+    }
+    else if(a<0)
+    {
+        printf("negative no");
+    }
+else
+{
+    printf("zero");
+}
+    return 0;
+}
+o/p:
+22
+positive no
+
+=== Code Execution Successful ===
