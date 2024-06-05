@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if(b==0)
+    {
+        printf("Second cannot be zero");
+        b=1;
+    }
+    int r=a/b;
+    printf("\n%d",r);
+    
+
+    return 0;
+}
