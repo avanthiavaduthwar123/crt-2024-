@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+
+int main() {
+    // Write C code here
+    int a,b,c;
+    float d;
+    scanf("%d%d%d%f",&a,&b,&c,&d);
+    int r1=a*a;
+    printf("%d\n",r1);
+    int r2=b*c;
+    printf("%d\n",r2);
+    float r3=3.14*d*d;
+    printf("2f",r3);
+    
+
+    return 0;
+}
+o/p:
+2
+3
+4
+5
+4
+12
+2f
+
+=== Code Execution Successful ===
