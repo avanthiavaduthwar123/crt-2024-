@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+void m1(int c)
+{
+    if(c<=10)
+    {
+        printf("Good morning\n");
+        c++;
+        m1(c);
+    }
+}
+int main()
+{
+    int c=1;
+    m1(c);
+}
+
+o/p:
+
+Good morning
+Good morning
+Good morning
+Good morning
+Good morning
+Good morning
+Good morning
+Good morning
+Good morning
+Good morning
+
+
+=== Code Execution Successful ===
