@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+void fun(int n)
+{
+    if(n>=1)
+    {
+        printf("%d",n);
+        fun(n-1);
+    }
+}
+    int main()
+    {
+        int n;
+        printf("Enter n values");
+        scanf("%d",&n);
+        fun(n);
+    }
+o/p:
+Enter n values22
+22212019181716151413121110987654321
