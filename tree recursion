@@ -1,0 +1,22 @@
+#include <stdio.h>
+void fun(int n)
+{
+if(n>=1)
+{
+    printf("%d",n);
+    fun(n-1);
+    fun(n-1);
+}
+}
+int main()
+{
+    int n;
+    printf("Enter n value");
+    scanf("%d",&n);
+    fun(n);
+}
+
+
+o/p:
+Enter n value6
+654321121132112114321121132112115432112113211211432112113211211
