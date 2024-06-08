@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdio.h>
+
+void m1()
+{
+    printf("Good morning");
+    m1();
+}
+int main()
+{
+    m1();
+}
+o/p:
+Good morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningGood morningG
