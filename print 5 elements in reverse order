@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+    int a[5],i;
+    for(i=0;i<5;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    for(i=4;i>=0;i--)
+    {
+        printf("%d",a[i]);
+    }
+}
+o/p:23
+2
+4
+5
+6
+654223
+
+=== Code Execution Successful ===
