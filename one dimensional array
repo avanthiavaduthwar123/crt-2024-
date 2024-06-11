@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int a[4]={34,12,87,56};
+int i;
+for(i=0;i<4;i++)
+{
+    printf("%d",a[i]);
+}
+    
+    return 0;
+}
+
+o/p:
+34128756
+
+=== Code Execution Successful ===
