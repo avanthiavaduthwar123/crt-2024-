@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a=56;
+    printf("value of a=%d\n",a);
+    printf("Address of a=%u\n",&a);
+    
+    
+
+    return 0;
+}
+o/p:value of a=56
+Address of a=2153197228
+
+
+=== Code Execution Successful ===
